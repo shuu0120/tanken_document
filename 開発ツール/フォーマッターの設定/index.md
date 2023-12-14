@@ -47,15 +47,18 @@ VSCodeの設定画面を開いてこれにチェックをつける
 
     Macなら`option+Shift+F`、Windowsなら`Alt+Shift+F`を押してフォーマッターを実行する。
 
+    これで`4`の画像のように整形されるはず。もしされなかったらトラブルシューティングを参照。
+   
     トラブルシューティング
 
      - 「フォーマッタを選択」のようなことが表示されたらPrettierを設定する
      - 何も表示されなければ、下のバーにあるこのアイコンを押して[書式設定]=>[構成]からPrettierを設定する
 
         ![アイコン](imgs/formatter-error.png)
+    
 
-4. `Shift+S`や`(option or Alt)+Shift+F`でコードが整形される！
+5. `Shift+S`や`(option or Alt)+Shift+F`でコードが整形される！
 
     ![正しくフォーマットされたファイル](imgs/formatted.png)
 
-    `(option or Alt)+Shift+F`では成形されるが、`Shift+S`で成形されない時は、FormatOnSaveにチェックされていないかも。
+    `(option or Alt)+Shift+F`では整形されるが、`Shift+S`で整形されない時は、FormatOnSaveにチェックされていないかも。
